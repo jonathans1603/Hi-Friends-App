@@ -1,0 +1,9 @@
+Hi-Friends App - Submission 1
+API: Dicoding Story API (https://story-api.dicoding.dev/v1)
+API key peta: TIDAK DIPERLUKAN (OpenStreetMap, OpenTopoMap, Esri World Imagery gratis tanpa key).
+Login: daftar akun lewat halaman Daftar, lalu masuk.
+
+Push notification: VAPID public key ada di src/scripts/config.js. Login, lalu aktifkan tombol "Notifikasi", lalu pasang status baru.
+PWA: manifest di src/public/manifest.json, service worker di src/public/sw.js. Uji install & offline di localhost.
+IndexedDB: fitur "Tersimpan" (simpan/lihat/hapus, cari, urutkan) + antrean offline (outbox) yang disinkronkan saat online.
+Screenshot manifest di src/public/screenshots berupa gambar contoh; ganti dengan screenshot asli (ukuran sama) bila perlu.

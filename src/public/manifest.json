@@ -1,0 +1,28 @@
+{
+  "id": "/",
+  "name": "Hi-Friends App",
+  "short_name": "Hi-Friends",
+  "description": "Temui teman baru, bagikan cerita dan pasang status yang bisa dilihat di peta.",
+  "lang": "id",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "theme_color": "#14213d",
+  "background_color": "#f5f7fa",
+  "categories": ["social"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "screenshots": [
+    { "src": "/screenshots/wide.png", "sizes": "1280x720", "type": "image/png", "form_factor": "wide", "label": "Beranda Hi-Friends di desktop" },
+    { "src": "/screenshots/narrow.png", "sizes": "720x1280", "type": "image/png", "form_factor": "narrow", "label": "Beranda Hi-Friends di ponsel" }
+  ],
+  "shortcuts": [
+    { "name": "Pasang status", "short_name": "Status", "description": "Bagikan status baru", "url": "/#/add", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] },
+    { "name": "Teman tersimpan", "short_name": "Tersimpan", "description": "Lihat status tersimpan", "url": "/#/saved", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" }] }
+  ]
+}
