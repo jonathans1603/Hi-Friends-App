@@ -1,4 +1,4 @@
-# App Starter Project with Webpack
+# Hi-Friends Website
 
 Proyek ini adalah setup dasar untuk aplikasi web yang menggunakan webpack untuk proses bundling, Babel untuk transpile JavaScript, serta mendukung proses build dan serving aplikasi.
 
